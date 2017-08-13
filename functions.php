@@ -1,10 +1,9 @@
 <?php
 
+require 'vendor/autoload.php';
 
-use Dompdf\Dompdf;
-use Dompdf\Options;
+use Dompdf\Dompdf as Dompdf;
 
-require_once 'dompdf/autoload.inc.php';
 
 
 function select() {
