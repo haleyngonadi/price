@@ -46,17 +46,17 @@ include_once('connection.php');
 
 <?php
 
-$csv = array_map('str_getcsv', file('price.csv'));
+// $csv = array_map('str_getcsv', file('price.csv'));
 
-foreach ($csv as &$value) {
+// foreach ($csv as &$value) {
 
-$sql = "INSERT INTO pricelist (item_code, item_price, item_type, item_description,item_more, item_quantity, item_remarks)
-VALUES ('$value[1]', '$value[6]', '$value[3]','$value[2]','$value[4]','$value[5]','$value[7]')";
+// $sql = "INSERT INTO pricelist (item_code, item_price, item_type, item_description,item_more, item_quantity, item_remarks)
+// VALUES ('$value[1]', '$value[6]', '$value[3]','$value[2]','$value[4]','$value[5]','$value[7]')";
 
- // $query = mysqli_query($conn, $sql);
+//  // $query = mysqli_query($conn, $sql);
 
 
-}
+// }
 
 
 ?>
@@ -337,7 +337,7 @@ $conn->close();
   <script src="js/bootstrap.min.js"></script>
 
 
-	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 
 
 </body>
