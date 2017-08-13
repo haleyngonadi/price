@@ -1,6 +1,6 @@
-/connection.php
-/upload
-/page.pdf
+connection.php
+upload/*
+page.pdf
 
 /readme.html
 /license.txt
